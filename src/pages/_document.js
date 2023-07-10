@@ -5,6 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
+        <p>This is a test for routing</p>
         <Main />
         <NextScript />
       </body>
