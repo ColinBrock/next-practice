@@ -1,11 +1,14 @@
-import reactDom from "react-dom";
-import react from "react";
 
-function Hello(){
+
+<div>
+<Test></Test>
+</div>
+
+function Test(){
+    console.log("test");
     return(
-    <div>
-      <p>Will this work as intended?</p>
-    </div>)
-  }
-  
-  <Hello />
+        <div>
+            <h1>Will this work properly?</h1>
+        </div>
+    )
+}

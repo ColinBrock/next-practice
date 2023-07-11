@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Document from './_document'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,7 @@ export default function Home() {
         <div className={styles.description}>
           <p>
             &nbsp;
-            <a href="_document.js">src/pages/index.js</a>
+            <Link href={"homepage.js"}>Does this work?</Link>
           </p>
           <div>
             <a
@@ -74,3 +75,4 @@ export default function Home() {
     </>
   )
 }
+
