@@ -1,8 +1,5 @@
 
 
-<div>
-<Test></Test>
-</div>
 
 function Test(){
     console.log("test");

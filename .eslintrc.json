@@ -1,3 +1,13 @@
 {
   "extends": "next/core-web-vitals"
 }
+
+Message(title, number)
+
+let envelope = new Message("This is a message", 55)
+
+expect(envelope.title)
+expect(5).toEqual(5)
+expect(5 == 5)
+
+let commands = [new Command('MODE_CHANGE', 'LOW_POWER'), new Command('STATUS_CHECK'), new Command('MOVE', 1000)]
