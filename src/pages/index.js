@@ -4,9 +4,17 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Document from './_document'
 import Link from 'next/link'
-
+import { useRouter } from 'next/router'
 const inter = Inter({ subsets: ['latin'] })
 
+export default function ReadMore() {
+  const router = useRouter()
+  return (
+    <button onClick={() => router.push('/homepage')}>
+      Does this work?
+    </button>
+  )
+}
 export default function Home() {
   return (
     <>
