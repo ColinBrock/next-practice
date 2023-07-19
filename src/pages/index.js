@@ -7,7 +7,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 const inter = Inter({ subsets: ['latin'] })
 
-export default function ReadMore() {
+export function ReadMore() {
   const router = useRouter()
   return (
     <button onClick={() => router.push('/homepage')}>
