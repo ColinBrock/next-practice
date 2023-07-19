@@ -28,11 +28,11 @@ export default function Home() {
         <div className={styles.description}>
           <p>
             &nbsp;
-            <Link href={"pages/homepage.js"}>Does this work?</Link>
+            <Link href={"homepage.js"}>Does this work?</Link>
           </p>
           <div>
             <a
-              href="pages/homepage.js"
+              href="homepage.js"
               target="_blank"
               rel="noopener noreferrer"
             >
