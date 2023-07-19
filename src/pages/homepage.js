@@ -1,8 +1,5 @@
 
 
-<div>
-<Test></Test>
-</div>
 
 function Test(){
     console.log("test");
@@ -12,3 +9,4 @@ function Test(){
         </div>
     )
 }
+<h1>Need to figure out how to actually route this stuff</h1>
