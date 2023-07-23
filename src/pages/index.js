@@ -7,7 +7,15 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 const inter = Inter({ subsets: ['latin'] })
 
-export function ReadMore() {
+export function HomePage() {
+  const router = useRouter()
+  return (
+    <button onClick={() => router.push('/homepage')}>
+      Does this work?
+    </button>
+  )
+}
+export function About() {
   const router = useRouter()
   return (
     <button onClick={() => router.push('/homepage')}>
