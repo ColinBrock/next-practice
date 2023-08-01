@@ -7,6 +7,21 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 const inter = Inter({ subsets: ['latin'] })
 
+// Write comments about meetings, upvote comments about meeting, rate meeting
+// Be able to create user account with authentication. User having a profile as well as data determined by other users
+// Logging in
+// View meetings
+//
+//
+
+
+
+
+// Make a view that takes you to the individual meeting page
+// Figure out how to make a list of meeting info and pass it into the table
+// Make a table that accepts the dynamic information related to those columns
+// Make a table that displays the names of the relevant columns
+
 export function HomePage() {
   const router = useRouter()
   return (
