@@ -11,6 +11,8 @@ const inter = Inter({ subsets: ['latin'] })
 // Be able to create user account with authentication. User having a profile as well as data determined by other users
 // Logging in
 // View meetings
+
+
 //
 //
 

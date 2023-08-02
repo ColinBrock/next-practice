@@ -6,9 +6,9 @@ const MeetingDisplayTable = () => {
     <table className={styles.table}>
       <thead>
         <tr>
-          <th>Meeting Name</th>
-          <th>Age</th>
-          <th>Occupation</th>
+          <th>Name</th>
+          <th>City</th>
+          <th>Time</th>
         </tr>
       </thead>
       <tbody>
