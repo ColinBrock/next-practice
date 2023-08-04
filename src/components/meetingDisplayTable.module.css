@@ -4,16 +4,13 @@
     border-collapse: collapse;
   }
   
-  /* th, td {
+  .table td {
     border: 1px solid #ddd;
     padding: 8px;
   }
   
-  th {
+  .table th {
     background-color: #f2f2f2;
   }
   
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  } */
   
