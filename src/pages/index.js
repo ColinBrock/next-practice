@@ -22,22 +22,7 @@ const inter = Inter({ subsets: ['latin'] })
 // Make a table that accepts the dynamic information related to those columns
 // Make a table that displays the names of the relevant columns
 
-export function HomePage() {
-  const router = useRouter()
-  return (
-    <button onClick={() => router.push('/homepage')}>
-      Does this work?
-    </button>
-  )
-}
-export function About() {
-  const router = useRouter()
-  return (
-    <button onClick={() => router.push('/homepage')}>
-      Does this work?
-    </button>
-  )
-}
+
 export default function Home() {
   return (
     <>
@@ -50,39 +35,22 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
-            &nbsp;
-            <Link href={"homepage.js"}>Does this work?</Link>
+           
+            <Link href={"/MeetingDisplay"}><strong>Link to meeting Display</strong></Link>
           </p>
           <div>
             <a
-              href="homepage.js"
+              href="/MeetingDisplay"
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={28}
-                priority
-              />
+              
             </a>
            
           </div>
         </div>
 
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>
+        
 
         <div className={styles.grid}>
           <a
