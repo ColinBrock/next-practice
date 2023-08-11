@@ -6,21 +6,21 @@ const MeetingDisplayTable = () => {
     <table className={styles.table}>
       <thead>
         <tr>
-          <th>Name</th>
-          <th>City</th>
+          <th>Meeting Name</th>
+          <th>Address</th>
           <th>Time</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>John Doe</td>
-          <td>30</td>
-          <td>Engineer</td>
+          <td>somethingsomething anon</td>
+          <td>1234 alchie street</td>
+          <td>Monday 11 am</td>
         </tr>
         <tr>
-          <td>Jane Smith</td>
-          <td>25</td>
-          <td>Designer</td>
+          <td>obj.Name</td>
+          <td>obj.Address</td>
+          <td>obj.Time</td>
         </tr>
       </tbody>
     </table>

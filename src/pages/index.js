@@ -20,7 +20,7 @@ const inter = Inter({ subsets: ['latin'] })
 // Make a view that takes you to the individual meeting page
 // Figure out how to make a list of meeting info and pass it into the table
 // Make a table that accepts the dynamic information related to those columns
-// Make a table that displays the names of the relevant columns
+// Make a table that displays the names of the relevant columns - IN PROGRESS
 
 
 export default function Home() {
