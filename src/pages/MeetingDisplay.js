@@ -7,7 +7,7 @@ const MeetingTable = () => {
     <div>
       <h1>List of Meetings</h1>
       <MeetingDisplayTable />
-      <footer></footer>
+      <footer>Copyright someguy</footer>
     </div>
   );
 };
